@@ -4,8 +4,9 @@ metadata:
   name: anand-svc
 spec:
   selector:
-    app:
+    app: nodejs
   type: LoadBalancer
   ports:
-    -  port:
-       targetPort: 
+    -  port: 80
+       targetPort: 80 
+       protocol: TCP
