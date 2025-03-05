@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: anandhakumarg/rocket-image:15
+        image: anandhakumarg/rocket-image:16
         ports:
         - containerPort: 80
       imagePullSecrets:
